@@ -1,6 +1,8 @@
 [
-    {"id": 1, "name": "Classic T-Shirt", "price": 499, "image": "https://placehold.co/150/FF0000/FFFFFF?text=T-Shirt"},
-    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "https://placehold.co/150/0000FF/FFFFFF?text=Shoes"},
-    {"id": 3, "name": "Smart Watch", "price": 3500, "image": "https://placehold.co/150/00FF00/FFFFFF?text=Watch"},
-    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "https://placehold.co/150/FFFF00/000000?text=Jeans"}
+    {"id": 1, "name": "Ben10 T-Shirt", "price": 499, "image": "https://cdn.wibuprint.com/wp-content/uploads/2024/05/HOG-Tshirt-2696-600x600.webp%7D"},
+    {"id": 2, "name": "Nike Airfoce Ben10", "price": 5900, "image": "https://mrsimplycustom.store/cdn/shop/files/Upgrade.png?v=1747393400&width=1946"},
+    {"id": 3, "name": "Watch Ultimate Alien", "price": 9500, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFUWQDaHXK_gUVnpuMfXq6QR2pBrYo4v_Qw&s"},
+    {"id": 4, "name": "Ben10 Underpants", "price": 500, "image": "https://scontent.fbkk8-2.fna.fbcdn.net/v/t39.30808-6/515720163_24069127279413801_8357980511056347213_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8d7U95wcyfwQ7kNvwGuxX1T&_nc_oc=AdkbX-P8OpvxQsji77yHHtnOV8v8NceTbJUqcSa2WCyiQH0_eQBRpXghYiSORyFUB4E&_nc_zt=23&_nc_ht=scontent.fbkk8-2.fna&_nc_gid=awgTepQkpEdjWoTJm2_jqg&oh=00_AfTbkRwxmu5MYkNX5n7tf2lDyQYTzlHaYJkpDSXqb1Otzw&oe=687FAF41"},
+    {"id": 5, "name": "Ben10 limited Backpack", "price": 1850, "image": "https://5.imimg.com/data5/NT/IJ/RI/SELLER-23171669/school-ben-10-bag-1000x1000.jpg"},
+    {"id": 6, "name": "Max van", "price": 50000000, "image": "https://topicstock.pantip.com/chalermthai/topicstock/2008/06/A6714509/A6714509-2.jpg"}
 ]
