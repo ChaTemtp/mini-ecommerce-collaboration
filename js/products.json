@@ -1,6 +1,6 @@
 [
-    {"id": 1, "name": "Classic T-Shirt", "price": 499, "image": "https://placehold.co/150/FF0000/FFFFFF?text=T-Shirt"},
-    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "https://placehold.co/150/0000FF/FFFFFF?text=Shoes"},
-    {"id": 3, "name": "Smart Watch", "price": 3500, "image": "https://placehold.co/150/00FF00/FFFFFF?text=Watch"},
-    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "https://placehold.co/150/FFFF00/000000?text=Jeans"}
+    {"id": 1, "name": "Ben10 T-Shirt", "price": 499, "image": "https://cdn.wibuprint.com/wp-content/uploads/2024/05/HOG-Tshirt-2696-600x600.webp"},
+    {"id": 2, "name": "Ben10 Shoes", "price": 1200, "image": "https://mrsimplycustom.store/cdn/shop/files/Upgrade.png?v=1747393400&width=1946"},
+    {"id": 3, "name": "Watch Ultimate Alien", "price": 3500, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFUWQDaHXK_gUVnpuMfXq6QR2pBrYo4v_Qw&s"},
+    {"id": 4, "name": "Ben10 Jeans", "price": 990, "image": "https://down-th.img.susercontent.com/file/91c8489a569c53fc60735130be71a427"}
 ]
