@@ -1,7 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const productList = document.getElementById('product-list');
     const searchInput = document.getElementById('searchInput');
+    const loader = document.getElementById('loader'); // ดึง loader
     let allProducts = [];
+
+    // แสดง Loader ก่อน fetch
+    loader.style.display = 'block';
 
     // Fetch products from JSON
     fetch('js/products.json')
@@ -9,6 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             allProducts = data;
             displayProducts(allProducts);
+        })
+        .catch(error => {
+            console.error('Error loading products:', error);
+            productList.innerHTML = '<p>เกิดข้อผิดพลาดในการโหลดสินค้า</p>';
+        })
+        .finally(() => {
+            // ซ่อน Loader หลังโหลดเสร็จ
+            loader.style.display = 'none';
         });
 
     function displayProducts(products) {
@@ -25,15 +37,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Inefficient Search
+    // Corrected Search
     searchInput.addEventListener('keyup', () => {
         const searchTerm = searchInput.value.trim().toLowerCase();
-        if (searchterm === " ") {
+        if (searchTerm === "") {
             displayProducts(allProducts);
             return;
-    }
+        }
         const filteredProducts = allProducts.filter(product => {
-            // Simple search, not very efficient
             return product.name.toLowerCase().includes(searchTerm);
         });
         displayProducts(filteredProducts);

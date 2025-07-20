@@ -17,11 +17,10 @@ input[type="text"] {
 }
 
 main {
-    justify-content: center; /* แก้จาก enter → center */
+    justify-content: center; 
     padding: 1rem;
 }
 
-/* ✅ NEW: Responsive layout for product list */
 #product-list {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +28,7 @@ main {
     padding: 5rem;
 }
 
-/* ✅ Updated product-card with transition and hover */
+
 .product-card {
     background: #fff;
     border: 1px solid #ddd;
@@ -58,4 +57,27 @@ main {
 
 .product-card p {
     color: #888;
+}
+
+.loader {
+    display: none; /* ซ่อนไว้ก่อน */
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.loader::after {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 4px solid #ccc;
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
 }
